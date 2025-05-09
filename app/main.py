@@ -1,5 +1,5 @@
-def copy_file(command: str) -> None:
-    parts = command.split()
+def copy_file(comm: str) -> None:
+    parts = comm.split()
     if len(parts) != 3 or parts[0] != "cp":
         return
 
